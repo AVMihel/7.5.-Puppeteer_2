@@ -1,0 +1,21 @@
+{
+  "name": "puppeteer2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "net.test.js",
+  "scripts": {
+    "test": "jest --runInBand --watchAll",
+    "cucumber": "cucumber-js",
+    "cucumber2": "cucumber-js --tags=@only"
+  },
+  "author": "Andrey Mikhel",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.2.1",
+    "cucumber": "^6.0.7",
+    "jest": "^30.0.5",
+    "jest-puppeteer": "^11.0.0",
+    "npm": "^11.5.2",
+    "puppeteer": "^24.16.2"
+  }
+}
